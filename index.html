@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+	<table>
+	  <tr>
+	    <td>
+	      <label for="sessionLength">Session length</label>
+	    </td>
+	    <td>
+	      <input id="sessionLength" value = "25">
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      <label for="brakeLength">Brake length</label>
+	    </td>
+	    <td>
+	      <input id="brakeLength" value = "5">
+	    </td>
+	  </tr>
+	  <tr>
+	  	<td></td>
+	  	<td></td>
+	  </tr>
+	  <tr>
+	    <td class = "button text-center start">
+	      start
+	    </td>
+	    <td class = "button text-center stop">
+	      stop
+	    </td>
+	  </tr>
+	</table>
+    
+</div>
+<h2 class="text-center" id = "label"></h2>
+<div class="exp-container">
+  <h2 class="text-center" id = "timer"></h2>
+</div>
+<script src="js/pomodoro.js"></script>
+
+
+
+
+</body>
+</html>

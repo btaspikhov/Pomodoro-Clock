@@ -1,0 +1,11 @@
+
+.arrow_left {
+  position: absolute;
+  top: 50px;
+}
+
+.arrow_right {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
